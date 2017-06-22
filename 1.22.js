@@ -23,7 +23,6 @@ hanoi = (m, a, b, c) => {
         hanoi(m-1, b,a,c);
     }
 }
-
 move = (x, y) => {
     iCount ++;
     strMoveStep += x + "->" + y + "\t";
